@@ -40,6 +40,13 @@ gem "wysiwyg-rails"
 
 gem 'semantic-ui-sass', git: 'https://github.com/doabit/semantic-ui-sass.git'
 
+gem 'trestle'
+gem 'trestle-auth'
+gem 'trestle-tinymce'
+# Use unidecoder for slug generation
+gem 'unidecoder'
+gem 'kaminari'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

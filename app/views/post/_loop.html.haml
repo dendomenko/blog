@@ -1,0 +1,13 @@
+.ui.items
+  - @posts.each do |p|
+    .item
+      .image
+        = image_tag('image-not-found.gif')
+      .content
+        %a.header= p.title
+        .meta
+          %span Description
+        .description
+          %p= truncate(p.body, lenght: 500, escape: false)
+        .extra
+          tag tag tag
